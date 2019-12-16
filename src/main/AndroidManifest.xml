@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loginactivity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".admin.DetailAngsuranAdmin"></activity>
+        <activity android:name=".user.RiwayatPemesanan"></activity>
+        <activity android:name=".admin.DetailpemesananActivity" />
+        <activity android:name=".admin.AdminPemesanan" />
+        <activity android:name=".admin.DetailAngsuran" />
+        <activity android:name=".fragment.PencarianUserPinjaman" />
+        <activity android:name=".admin.AdminPemesannMakanan" />
+        <activity android:name=".admin.AdminLaporanActivity"></activity>
+        <activity android:name=".SplashScreenActivity" />
+        <activity android:name=".user.UserDetailAngsuranActivity" />
+        <activity android:name=".admin.DetailPinjamanActivity" />
+        <activity android:name=".admin.AdminSimpanan" />
+        <activity android:name=".admin.TampilItemActivity" />
+        <activity android:name=".admin.ItemMakanan" />
+        <activity android:name=".admin.AdminAngsuran" />
+        <activity android:name=".admin.AdminPinjaman" />
+        <activity android:name=".DetailPeternakActivity" />
+        <activity android:name=".admin.RecyclerViewPeternakActivity" />
+        <activity android:name=".user.UserAngsuranActivity" />
+        <activity android:name=".user.UserPinjamanActivity" />
+        <activity android:name=".user.UserHistoryActivity" />
+        <activity android:name=".user.RiwayatPinjamanActivity" />
+        <activity android:name=".admin.AdminMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".profilActivity" />
+        <activity android:name=".ForgotpassActivity" />
+        <activity android:name=".DataActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".user.TampilDataActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
