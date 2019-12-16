@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/txtjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="50sp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_below="@+id/txtjudul"
+        android:id="@+id/txtktp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="masukan ktp"/>
+    <EditText
+        android:layout_below="@+id/txtktp"
+        android:id="@+id/txtnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"/>
+    <EditText
+        android:layout_below="@+id/txtnama"
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Your Email"/>
+    <EditText
+        android:layout_below="@+id/txtemail"
+        android:id="@+id/txtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Your password"/>
+
+    <EditText
+        android:layout_below="@+id/txtpass"
+        android:id="@+id/txtnohp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Your Phone"/>
+    <EditText
+        android:layout_below="@+id/txtnohp"
+        android:id="@+id/txttps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukan kelurahan"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttps"
+        android:text="Upluad KTP Anda"
+        android:id="@+id/txtpsn"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_below="@+id/txtpsn"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/view"
+        android:src="@drawable/ic_backup_black_24dp"
+        />
+    <ProgressBar
+        android:layout_below="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_below="@+id/progressbar"
+        android:layout_width="100dp"
+        android:background="@android:color/black"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="gallery"/>
+
+    <Button
+        android:id="@+id/btnkamera"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnupload"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/black"
+        android:text=" kamera"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnregis"
+        android:layout_below="@+id/btnkamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Register"/>
+    <Button
+
+        android:id="@+id/btncancel"
+        android:layout_below="@+id/btnregis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"/>
+
+
+
+</RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

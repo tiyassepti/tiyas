@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/yh"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"
+        android:textSize="40dp"
+        android:text="SIGN IN"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <EditText
+        android:id="@+id/txemail"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:textColorHint="@android:color/white" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+    <EditText
+
+        android:id="@+id/txpass"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:hint="Password"/>
+    <CheckBox
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:id="@+id/showpass"/>
+
+
+    <Button
+        android:id="@+id/btnforgot"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textColor="@android:color/white"
+        android:gravity="left"
+        android:text="Forget password?"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+    android:id="@+id/btnmasuk"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:text="Masuk"/>
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:text="Daftar"/>
+
+
+</LinearLayout>
+

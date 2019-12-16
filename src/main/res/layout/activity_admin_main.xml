@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.AdminMainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/admin_peternak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_admin"
+                android:drawableTop="@drawable/ic_laporan"
+                android:paddingTop="10dp"
+                android:text="Data Peternak"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/admin_pinjaman"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_admin"
+                android:drawableTop="@drawable/ic_laporan"
+                android:paddingTop="10dp"
+                android:text="Pinjaman"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/admin_angsuran"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_admin"
+                android:drawableTop="@drawable/ic_laporan"
+                android:paddingTop="10dp"
+                android:text="Angsuran"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/admin_Ubahharga"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_admin"
+                android:drawableTop="@drawable/ic_laporan"
+                android:paddingTop="10dp"
+                android:text="Ubah Harga"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/admin_Pemesanan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_admin"
+                android:drawableTop="@drawable/ic_laporan"
+                android:paddingTop="10dp"
+                android:text="Pemesanan"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/admin_laporan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button_admin"
+                android:drawableTop="@drawable/ic_laporan"
+                android:paddingTop="10dp"
+                android:text="laporan"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

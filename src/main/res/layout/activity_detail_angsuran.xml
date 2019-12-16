@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".admin.DetailAngsuran">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_person_black_24dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/dp_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Id Anngsuran"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/id_pinjaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Kode Pinjaman"
+            android:singleLine="true"
+            android:text="Kode Pinjaman"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Nama"
+            android:singleLine="true"
+            android:text="Nama"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Email"
+            android:singleLine="true"
+            android:text="Email"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/dp_jatuhtempo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Jatuh Tempo"
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/jumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Jumlah"
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/kali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Kali Angsur"
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+        <TextView
+            android:id="@+id/dp_idktp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Bukti Angsuran"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/img_bukti"
+            android:src="@drawable/ic_backup_black_24dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/dp_btn_setuju"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Setujui"/>
+            <Button
+                android:id="@+id/dp_btn_tolak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ditolak"/>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

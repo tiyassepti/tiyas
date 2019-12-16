@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".admin.ItemMakanan">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/iditem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Id"
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/Namamakanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="namaMakanan"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/hargamakanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="true"
+            android:gravity="center_vertical"
+            android:hint="harga"
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ubah"
+                android:background="@color/holo_orange"
+                android:id="@+id/btnTambah"
+               />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

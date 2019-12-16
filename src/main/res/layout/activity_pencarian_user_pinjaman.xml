@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.PencarianUserPinjaman">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_riwayat_pinjama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/diproses_kosong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="Data Tidak Ditemukan"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+
+   />
+
+</FrameLayout>

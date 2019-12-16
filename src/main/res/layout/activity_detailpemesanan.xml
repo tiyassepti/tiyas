@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".admin.DetailpemesananActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_person_black_24dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/dp_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Id Pemesanan"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/dp_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Nama Pemesan"
+            android:singleLine="true"
+            android:text="Nama"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/dp_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Email Pemesan"
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/dp_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Tanggal Pesan"
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/dp_makanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Nama Makanan"
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/dp_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="harga "
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/dp_jml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Jumlah"
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="8dp"
+            android:enabled="false"
+            android:gravity="center_vertical"
+            android:hint="Total"
+            android:singleLine="true"
+            android:textSize="16sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_helperTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_textColor="@color/white"
+            app:met_textColorHint="@color/white" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/dp_btn_setuju"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Setujui"/>
+            <Button
+                android:id="@+id/dp_btn_tolak"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tolak"/>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

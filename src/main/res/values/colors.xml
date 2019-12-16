@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bfbf</color>
+    <color name="colorPrimaryDark">#555959</color>
+    <color name="colorAccent">#546d5b</color>
+    <color name="blue">#103F92</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="orange">#FFC107</color>
+    <color name="hijau">#3DFF07</color>
+    <color name="merah">#FF0707</color>
+
+    <color name="diproses">#3F51B5</color>
+    <color name="ditolak">#FF0027</color>
+    <color name="diterima">#2B2B2B</color>
+    <color name="view_tengah">#E9929292</color>
+
+    <color name="holo_orange">@android:color/holo_orange_dark</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+
+</resources>

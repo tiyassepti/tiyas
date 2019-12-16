@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LoginActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="MakananSapi">
+        <item>Bekatul</item>
+        <item>Ampas</item>
+        <item>Dedak</item>
+        <item>Sentrat</item>
+    </string-array>
+    <string-array name="Kebutuhan">
+        <item>Biaya Rumah sakit</item>
+        <item>Biaya Pendidikan</item>
+        <item> Biaya rumah Tangga</item>
+        <item>Biaya Lain -Lain</item>
+
+
+    </string-array>
+</resources>

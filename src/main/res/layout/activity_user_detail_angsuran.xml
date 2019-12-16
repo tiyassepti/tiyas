@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.UserDetailAngsuranActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sisa Tagihan"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:id="@+id/ang_sisa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sisa Tagihan"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textColor="@color/merah"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:id="@+id/ang_tanggal_pembayaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                />
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_tengah" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jumlah Yang Harus Dilunasi"
+                    />
+                <TextView
+                    android:id="@+id/ang_sisa_pinjaman"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Angsuran Bulanan"
+                    android:gravity="end"
+                    android:textColor="@color/merah"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Angsuran Bulanan"
+                    />
+                <TextView
+                    android:id="@+id/ang_tag_sebelumnya"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Angsuran Bulanan"
+                    android:gravity="end"
+                    android:textColor="@color/merah"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sisa Pinjaman"
+                    />
+                <TextView
+                    android:id="@+id/ang_sisa2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sisa Pinjaman"
+                    android:textColor="@color/merah"
+                    android:gravity="end"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/img_bukti"
+                android:src="@drawable/ic_backup_black_24dp"
+                />
+            <Button
+                android:id="@+id/btnupload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/merah"
+                android:text="Upload Bukti Bayar dari gallery"
+                android:textSize="19dp"
+                android:background="@drawable/bg_button_merah"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/btnkamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/merah"
+                android:text="Upload Bukti Bayar dari kamera"
+                android:textSize="19dp"
+                android:background="@drawable/bg_button_merah"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/btn_bayar_sekarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_button_merah"
+                android:text="Bayar Sekarang"
+                android:textAllCaps="false"
+                android:textSize="19dp"
+                android:textColor="@color/merah"
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_tengah" />
+
+        </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
